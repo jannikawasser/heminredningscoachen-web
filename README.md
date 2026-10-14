@@ -15,6 +15,10 @@ Kör en statisk webbserver med `dist/` som rot, exempelvis `python -m http.serve
 - Logotyp, materialmoodboard och vardagsrumsbild hämtade från samma systeme.io-version. Vinröd och rosa färgpalett.
 - Inspirationssektionen beskriver ämnena; artiklar publiceras senare.
 
+## Masterlogo
+
+`dist/assets/master-logo.png` är webbplatsens masterlogo, vald av Jannika: den liggande varianten i mitten högst upp på referensen *Palett och logga 2.png*. Den har rosa taklinje, vinröd HEMINREDNINGS, rosa Coachen och devisen INRED FÖR DIG. INTE FÖR ANDRA. Används i sidhuvud och sidfot. Bildfilen är framtagen med imagegen från referensen med transparent bakgrund och ska behållas som utgångspunkt för framtida logotypiterationer.
+
 ## Nästa steg
 
 Integrera verklig kalenderbokning, kurskatalog, betalning och rabattkoder samt en nyhetsbrevsleverantör med korrekt samtyckeshantering. Inga betalningar, bokningar eller prenumerationer simuleras som fungerande. Undersidestexter från systeme.io behöver granskas separat; den här överföringen gäller startsidans innehåll.
@@ -22,3 +26,4 @@ Integrera verklig kalenderbokning, kurskatalog, betalning och rabattkoder samt e
 ## Publicering
 
 Sites använder `.openai/hosting.json` och publicerar `dist/`. Granskningsversionen är privat. Den befintliga domänen är ännu inte flyttad.
+
