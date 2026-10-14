@@ -18,3 +18,5 @@ header{height:136px}.brand img{width:300px;max-height:112px;object-fit:contain}f
 @media(min-width:681px) and (max-width:900px){header{height:120px}nav{top:120px}}
 @media(max-width:680px){header{height:108px}.brand img{width:225px;max-height:92px}nav{top:108px}footer .brand img{width:225px}}
 @media(max-width:380px){.brand img{width:195px}}
+/* Hide the tagline only in the header; preserve the master artwork. */
+header .brand img{clip-path:inset(0 0 17% 0)}
