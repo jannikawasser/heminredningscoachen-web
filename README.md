@@ -11,11 +11,13 @@ Kör en statisk webbserver med `dist/` som rot, exempelvis `python -m http.serve
 - Presentation, tjänsteinriktningar, filosofi och kontakt.
 - Mobilmeny, tangentbordsnavigation och interna sektionslänkar.
 - Kontakt och intresseanmälningar öppnar besökarens mejlprogram. Inget skickas eller registreras automatiskt.
-- Originalbild och logotyp från heminredningscoachen.se.
+- Startsidesinnehåll från Jannikas systeme.io-version: Hem i balans, hållbarhet, presentation av Jannika, Stilstartaren, Designdialogen, Rum för Rum, Inred med stil och Ett hållbart hem.
+- Logotyp, materialmoodboard och vardagsrumsbild hämtade från samma systeme.io-version. Vinröd och rosa färgpalett.
+- Inspirationssektionen beskriver ämnena; artiklar publiceras senare.
 
 ## Nästa steg
 
-Bekräfta tjänstetexter och design med Jannika. Integrera sedan verklig kalenderbokning, kurskatalog, betalning och rabattkoder samt en nyhetsbrevsleverantör med korrekt samtyckeshantering. Inga betalningar, bokningar eller prenumerationer simuleras som fungerande.
+Integrera verklig kalenderbokning, kurskatalog, betalning och rabattkoder samt en nyhetsbrevsleverantör med korrekt samtyckeshantering. Inga betalningar, bokningar eller prenumerationer simuleras som fungerande. Undersidestexter från systeme.io behöver granskas separat; den här överföringen gäller startsidans innehåll.
 
 ## Publicering
 
