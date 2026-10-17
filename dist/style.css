@@ -33,6 +33,8 @@ header .brand img{clip-path:inset(0 0 17% 0)}
 @media(prefers-reduced-motion:reduce){.nav-chevron{transition:none}}
 nav{font-size:15px;font-weight:500}.nav-submenu a{font-size:15px}
 nav>a,.nav-services>summary{white-space:nowrap}
+nav>a:hover,nav>a:focus-visible,.nav-services>summary:hover,.nav-services>summary:focus-visible{color:var(--green);text-decoration:underline;text-decoration-color:var(--green);text-decoration-thickness:2px;text-underline-offset:7px}
+.nav-submenu a:hover,.nav-submenu a:focus-visible{background:#f2e3e8;color:var(--green);text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:4px}
 @media(min-width:1051px) and (max-width:1250px){header .brand img{width:225px}nav{gap:18px}}
 @media(max-width:1050px){nav{font-size:16px}.nav-submenu a{font-size:16px}}
 @media(min-width:901px) and (max-width:1050px){header{position:relative}.menu-toggle{display:flex;gap:12px;background:none;border:1px solid var(--line);padding:7px 12px;font-size:14px}nav{display:none;position:absolute;top:136px;left:0;right:0;z-index:10;background:var(--cream);padding:24px 6%;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:18px}nav.open{display:flex}.nav-submenu{position:static;margin-top:12px;box-shadow:none;min-width:0}}
