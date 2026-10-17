@@ -20,3 +20,5 @@ header{height:136px}.brand img{width:300px;max-height:112px;object-fit:contain}f
 @media(max-width:380px){.brand img{width:195px}}
 /* Hide the tagline only in the header; preserve the master artwork. */
 header .brand img{clip-path:inset(0 0 17% 0)}
+.newsletter-mark{flex:0 0 180px;width:180px;background:var(--cream);border-radius:50%;padding:13px}.newsletter-mark img{width:100%;height:auto}.newsletter>div:not(.newsletter-mark){min-width:0}
+@media(max-width:680px){.newsletter{flex-direction:column;gap:28px}.newsletter-mark{flex:none;width:112px;padding:9px}}
