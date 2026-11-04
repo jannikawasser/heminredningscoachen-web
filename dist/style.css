@@ -48,5 +48,7 @@ header .brand img{clip-path:inset(0 0 17% 0)}
 @media(max-width:680px){.about-page .about-story h2{font-size:clamp(21px,6.5vw,34px)}}
 
 /* Align the framed portrait with the introduction tagline. */
-.about-heading{display:contents}.about-heading h1{grid-column:1 / -1;grid-row:1;margin-bottom:0}.about-intro-layout .about-tagline{grid-column:1;grid-row:2}.about-intro-layout>.prose{grid-row:3}.about-portrait{grid-row:2 / span 2;border:1px solid #b78697;padding:9px;background:#fffaf5}
+.about-heading{display:contents}.about-heading h1{grid-column:1 / -1;grid-row:1;margin-bottom:0}.about-intro-layout .about-tagline{grid-column:1;grid-row:2}.about-intro-layout>.prose{grid-row:3}.about-portrait{grid-row:2 / span 2;border:0;padding:12px;background:var(--peach);border-radius:22px;box-shadow:0 8px 24px rgba(121,52,72,.08)}
 @media(max-width:900px){.about-heading h1,.about-intro-layout .about-tagline,.about-intro-layout>.prose,.about-portrait{grid-column:1;grid-row:auto}}
+
+.about-portrait img{border-radius:13px}
