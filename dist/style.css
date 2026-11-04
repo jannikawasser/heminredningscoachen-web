@@ -46,3 +46,7 @@ header .brand img{clip-path:inset(0 0 17% 0)}
 .about-intro{max-width:1440px}.about-intro-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.9fr);gap:28px 6%;align-items:start}.about-heading,.about-intro-layout>.prose{grid-column:1;min-width:0}.about-intro-layout .about-tagline{font-size:clamp(27px,2.7vw,38px);margin-bottom:0}.about-portrait{grid-column:2;grid-row:1 / span 2;margin:0}.about-portrait img{width:100%;height:auto;display:block}.about-page .about-story{grid-template-columns:1fr;gap:30px}.about-story .prose{max-width:740px}.about-page .about-story h2{overflow-wrap:normal;word-break:normal;font-size:clamp(26px,3.7vw,48px)}.about-brand-name{white-space:nowrap}
 @media(max-width:900px){.about-intro-layout{grid-template-columns:1fr;gap:28px}.about-heading,.about-intro-layout>.prose,.about-portrait{grid-column:1;grid-row:auto}.about-portrait{max-width:420px;width:100%}.about-intro-layout .about-tagline{font-size:28px}}
 @media(max-width:680px){.about-page .about-story h2{font-size:clamp(21px,6.5vw,34px)}}
+
+/* Align the framed portrait with the introduction tagline. */
+.about-heading{display:contents}.about-heading h1{grid-column:1 / -1;grid-row:1;margin-bottom:0}.about-intro-layout .about-tagline{grid-column:1;grid-row:2}.about-intro-layout>.prose{grid-row:3}.about-portrait{grid-row:2 / span 2;border:1px solid #b78697;padding:9px;background:#fffaf5}
+@media(max-width:900px){.about-heading h1,.about-intro-layout .about-tagline,.about-intro-layout>.prose,.about-portrait{grid-column:1;grid-row:auto}}
