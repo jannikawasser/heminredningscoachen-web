@@ -21,9 +21,13 @@ Kör en statisk webbserver med `dist/` som rot, exempelvis `python -m http.serve
 
 ## Nästa steg
 
-Integrera verklig kalenderbokning, kurskatalog, betalning och rabattkoder samt en nyhetsbrevsleverantör med korrekt samtyckeshantering. Inga betalningar, bokningar eller prenumerationer simuleras som fungerande. Undersidestexter från systeme.io behöver granskas separat; den här överföringen gäller startsidans innehåll.
+Integrera verklig kalenderbokning, kurskatalog, betalning och rabattkoder samt en nyhetsbrevsleverantör med korrekt samtyckeshantering. Inga betalningar, bokningar eller prenumerationer simuleras som fungerande. De tre tjänstesidorna använder de godkända texterna från Inklistrad text.txt: Stilstartaren (3 995 kr), Designdialogen (1 795 kr) och Rum för Rum Makeover (7 995 kr), inklusive moms. Priser, omfattning, leveranstider och uppföljningsvillkor är bevarade.
 
 ## Publicering
 
 Sites använder `.openai/hosting.json` och publicerar `dist/`. Granskningsversionen är privat. Den befintliga domänen är ännu inte flyttad.
 
+
+## Kontroll av tjänstesidor (2026-11-04)
+
+Originaltexterna jämförda radvis mot alla tre tjänstesidor. Startsida och tjänstesidor granskade vid 320, 390, 768 och 1440 px utan horisontell överströmning. Mobilmeny, tjänstelänkar och bokningspanel testade i webbläsare. Bokningsknappar öppnar en förfrågan som kunden kopierar till sitt mejl; inga bokningar skickas automatiskt.
