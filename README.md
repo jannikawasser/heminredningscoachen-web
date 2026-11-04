@@ -25,7 +25,11 @@ Integrera verklig kalenderbokning, kurskatalog, betalning och rabattkoder samt e
 
 ## Publicering
 
-Sites använder `.openai/hosting.json` och publicerar `dist/`. Granskningsversionen är privat. Den befintliga domänen är ännu inte flyttad.
+GitHub Pages publicerar `dist/` via `.github/workflows/pages.yml` vid uppdateringar på `main`.
+
+Granskningsadress: https://jannikawasser.github.io/heminredningscoachen-web/
+
+Repositoryt är publikt. OpenAI Sites-konfigurationen i `.openai/hosting.json` finns kvar för den tidigare förhandsvisningen. Inga egna domäner är kopplade till GitHub Pages; heminredningscoachen.se ska inte flyttas eller ändras utan separat lanseringsbeslut.
 
 
 ## Kontroll av tjänstesidor (2026-11-04)
